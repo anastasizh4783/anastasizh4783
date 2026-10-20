@@ -1,0 +1,13 @@
+{
+  "notes": "tapFrac is the SCREEN centre of the real control, computed from its RectTransform over the 1242x2688 reference canvas and then corrected for the AspecterSA aspect fitter: FitInParent at 1242/2688 = 0.46205357 on the 1080x2400 capture device gives a 1080 x 2337.38 panel letterboxed by 31.31 px top and bottom, so screenY = (2400 - 31.31 - u * 2337.38) / 2400 where u is the control's fraction from the bottom of the panel. Every step lands on a different screen: the two menu boards are left by moving FORWARD, never by aiming at a close glyph.",
+  "steps": [
+    { "waitLoader": true, "shot": "01_Menu" },
+    { "tapFrac": [0.500, 0.831], "label": "HOW_TO_TILT", "wait": 3, "shot": "02_HowToTilt" },
+    { "tapFrac": [0.500, 0.855], "label": "GOT_IT_PICK_A_ROUTE", "wait": 3, "shot": "03_PickDelivery" },
+    { "tapFrac": [0.500, 0.398], "label": "ROUTE_CARD_ORCHARD_LINE", "wait": 3, "shot": "04_RouteChosen" },
+    { "tapFrac": [0.500, 0.875], "label": "START_DELIVERY", "waitLoader": true, "shot": "05_BeltRunning" },
+    { "tapFrac": [0.250, 0.914], "label": "TILT_PAD_LEFT", "wait": 8, "shot": "06_TiltAndPlume" },
+    { "tapFrac": [0.750, 0.914], "label": "TILT_PAD_RIGHT", "wait": 12, "shot": "07_EggUnderStrain" },
+    { "tapFrac": [0.912, 0.084], "label": "PAUSE", "wait": 3, "shot": "08_BeltHeld" }
+  ]
+}

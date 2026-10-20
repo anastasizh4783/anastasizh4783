@@ -1,0 +1,142 @@
+{
+  "style": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette",
+  "palette": [
+    "#FFF8E6",
+    "#FFD15A",
+    "#EF8245",
+    "#76C66B",
+    "#62A8DB",
+    "#303850",
+    "#232A3E",
+    "#3A4360"
+  ],
+  "notes": "One art style for the whole project, repeated word for word at the head of every prompt (rule F.1c). Every sprite that takes part in the mechanic declares its orientation in words (rule C.8): the plume, the station post, the back chevron and the two tilt glyphs are asymmetric and say which way they face; everything else is declared symmetric so stage 5c0 never mirrors it. No prompt argues about the background colour of a cut-out subject - the pipeline removes it (rule F.1b). There is no audio asset of any kind (rule C.20). No prompt contains the app name and no sprite carries lettering (hard rule 1): the splash and menu mark is an abstract ring stamp with an egg silhouette inside it. The icon hero is one object, a single cream egg resting in a tilted carry tray.",
+  "assets": [
+    {
+      "name": "bg_main",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_main.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, an early morning farm valley seen head on, cream and apricot sky, soft sage hills, a slim aerial carry belt line crossing the middle distance, warm and inviting, the centre band calm and uncluttered so controls read over it, vertical 9:16 portrait composition, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "bg_game",
+      "type": "bg",
+      "transparent": false,
+      "target": "Assets/Art/Textures/_BASE/Backgrounds/BG_game.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, the same farm valley pushed far back and softly blurred, muted and low contrast, the whole middle band deliberately empty so gameplay reads on top of it, the upper fifth and the lower fifth darkened and quiet so a readout and two control pads stay legible, vertical 9:16 portrait composition, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_tray",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_tray.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, a wooden carry tray with three shaped nest hollows along its top edge, warm oak boards with a painted rim, side view, lying perfectly level and horizontal, symmetric left to right, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_egg_intact",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_egg_intact.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, one single cream farm egg with a soft painted highlight, side view, standing upright, symmetric left to right, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_egg_cracked",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_egg_cracked.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, one single cream farm egg with a single dark crack line running down its shell, side view, standing upright, symmetric left to right, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_plume",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_plume.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, one single soft golden feather plume, side view, facing RIGHT with the quill root at the left edge and the soft tip at the right edge, clearly asymmetric, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_rail_segment",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_rail_segment.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, a short square section of a slim aerial carry belt with two rope strands and a wooden slat, side view, horizontal, the belt entering at the left edge and leaving at the right edge, symmetric left to right, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_station_post",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_station_post.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, a small wooden farm station post with a blank unmarked board on top, side view, facing RIGHT with the blank board turned toward the right, clearly asymmetric, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_band_post",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_band_post.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, a slim golden marker post with a rounded cap and a small base, side view, standing vertical, symmetric left to right, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_band_notch",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_band_notch.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, a small rounded safety notch mark, a soft chalk dash, seen top down, symmetric in both directions, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_hill_far",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_hill_far.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, a soft rolling sage green hill silhouette with a painted edge, side view, symmetric left to right, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_crack_burst",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_crack_burst.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, a small radial burst of pale eggshell chips, symmetric radial starburst shape, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_icon_pause",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_pause.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, a pause glyph made of two thick rounded vertical bars, flat painted golden shape, symmetric left to right, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_icon_back",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_back.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, a back chevron glyph, a single thick rounded arrow head, facing LEFT with the point at the left edge, clearly asymmetric, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_icon_close",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_close.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, a close glyph, a thick rounded diagonal cross, symmetric in both directions, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_icon_tilt_left",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_tilt_left.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, a tilt glyph, a short tray bar dipping down toward the left with a small arc arrow over it, facing LEFT, clearly asymmetric, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_icon_tilt_right",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_icon_tilt_right.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, a tilt glyph, a short tray bar dipping down toward the right with a small arc arrow over it, facing RIGHT, clearly asymmetric, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    },
+    {
+      "name": "sprite_mark_ring",
+      "type": "sprite",
+      "transparent": true,
+      "target": "Assets/Art/Sprites/sprite_mark_ring.png",
+      "prompt": "hand-painted storybook gouache game art, soft painted edges, warm paper texture, thick readable silhouette, an abstract emblem, a thick golden ring stamp with a plain cream egg silhouette centred inside the ring, flat painted mark, symmetric left to right, one single subject, centred, fully in frame, no other objects, no text, no letters, no logos, no watermark, no UI elements, not a photo, not photorealistic, no film grain, no lens flare, no bokeh, no depth of field"
+    }
+  ]
+}
